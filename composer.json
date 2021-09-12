@@ -1,0 +1,28 @@
+{
+  "name": "consumingtoast/postpackage",
+  "description": "create, like and delete posts",
+  "type": "library",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Diaconu Teodora",
+      "email": "teodoradiaconu99@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Posts\\": "src/Posts/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Posts\\PasswordServiceProvider"
+      ]
+    }
+  }
+}
